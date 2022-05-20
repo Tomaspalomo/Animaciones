@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi primer proyecto">
+    <meta name="keywords" content="html, css, pagina">
+    <meta name="author" content="Tomás Palomo">
+    <meta name="robots" content="index">
+    <!-- fin metas -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- fin CSS -->
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Ms+Madi&display=swap" rel="stylesheet">
+    <!-- fin fonts -->
+    
+    <title>Avenged Sevenfold</title>
+</head>
+<body>
+    <header class="header">
+        
+        <!-- Logo y navegacion -->
+        
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png" alt="Logo de Avenged Sevenfold"></a>
+        </div>
+            <nav>
+                <ul class="enlaces">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="integrantes.html">INTEGRANTES</a></li>
+                    <li><a href="discografia.html">DISCOGRAFIA</a></li>
+                    <li><a href="conciertos.html">CONCIERTOS</a></li>
+                    <li><a href="contactanos.html">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    <main class="principal">
+        <h1 class="titulo">CONTACTANOS</h1>
+        <P class="novedades">RECIBE LAS ULTIMAS NOVEDADES SOBRE AVENGED SEVENFOLD</P>
+        <form action="" method="">
+            <fieldset class="contorno">
+                <legend>
+                    FORMULARIO
+                </legend>
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Colocar nombre" required maxlength="10">
+                </div>
+                <div class="apellido">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Colocar apellido" required maxlength="10">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Colocar email" required maxlength="20">
+                </div>
+                <div class="celular">
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" name="celular" placeholder="Colocar numero">
+                </div>
+                <div class="enviar">
+                    <label for="enviar"></label>
+                    <input type="submit" id="enviar" name="enviar">
+                </div>
+                <div class="borrar">
+                    <label for="borrar"></label>
+                    <input type="reset" id="borrar" name="borrar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <!-- footer -->
+    <footer>
+        <!-- redes -->
+            <div class="contenedorFooter">
+                <h2 class="redes"">REDES</h2>
+            </div>
+            <div class="redesSociales">
+                <i><img class="instagram" src="../img/redesicon1.png" alt="Instagram"></i>
+                <i><img class="spotify" src="../img/redesicon2.png" alt="Spotify"></i>
+            </div>
+            <div class="contenedorDerechos">
+                <p class="derechos">COPYRIGHT TOMÁS PALOMO - 2022. TODOS LOS DERECHOS RESERVADOS</p>
+            </div>
+        <!-- fin redes -->
+        </footer>
+        <!-- fin footer -->
+</body>
+</html>
