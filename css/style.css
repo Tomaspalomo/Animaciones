@@ -16,6 +16,26 @@
     padding: 0 20px;
 }
 
+.logo :hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+.header .logo img {
+    height: 5rem;
+    width: auto;
+}
 /* Fin logo */
 
 /* Barra de navegacion */
@@ -117,6 +137,18 @@
     height: 9.2vh;
 }
 
+.redesSociales i :hover {
+    transform: rotate(360deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
 
 .instagram {
     width: 2.3rem;
