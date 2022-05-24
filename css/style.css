@@ -164,29 +164,62 @@
     color: white;
     text-align: center;
     font-size: 1.3rem;
+    height: 4.3rem
 }
 /* Fin footer */
 
 
 /* Integrantes */
 
+.contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Imagenes de instegrantes*/
+.vocalistaArticle {
+    width: 90%;
+}
+
+.guitarristaPrincipalArticle {
+    width: 90%
+}
+
+.guitarristaSecundarioArticle{
+    width: 90%
+}
+
+.bajistaArticle {
+    width: 80%
+}
+
+.bateristaArticle {
+    width: 90%
+}
+
+/* Fin imagenes de instegrantes */
+
 .vocalista {
     color: white;
     margin: 1.9rem;
     text-decoration: underline;
-    justify-self: end;
+    text-align: center;
 }
 
 .guitarristaPrincipal {
     color: white;
     margin: 1.9rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 .guitarristaSecundario {
     color: white;
     margin: 1.9rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 
@@ -194,66 +227,88 @@
     color: white;
     margin: 1.9rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 .baterista {
     color: white;
     margin: 1.9rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 .integrante1 {
     color: white;
-    
+    text-align: center;
+    height: 100%;
 }
 
 .integrante2 {
     color: white;
+    text-align: center;
 }
 
 .integrante3 {
     color: white;
+    text-align: center;
 }
 
 .integrante4 {
     color: white;
+    text-align: center;
 }
 
 .integrante5 {
     color: white;
+    text-align: center;
+}
+
+.matt {
+    width: 450px;
+    height: 600px;
+}
+
+.synyster {
+    width: 450px;
+    height: 600px;
+}
+
+.zacky {
+    width: 450px;
+    height: 600px;
+}
+.jhonny {
+    width: 450px;
+    height: 600px;
+}
+.brooks {
+    width: 450px;
+    height: 600px;
 }
 
 .vocalistaInfo {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 1.2rem;
-    justify-self: center;
 }
-
 
 .guitarristaPrincipalInfo {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 1.2rem;
-    
 }
 
 .guitarristaSecundarioInfo {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 1.2rem;
     
 }
 
 .bajistaInfo {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 1.2rem;
 }
 
 .bateristaInfo {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 1.2rem;
 }
 
