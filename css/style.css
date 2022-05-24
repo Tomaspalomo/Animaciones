@@ -33,12 +33,15 @@
     margin-right: auto;
 }
 .header .logo img {
-    height: 5rem;
+    height: 6rem;
     width: auto;
 }
 /* Fin logo */
 
 /* Barra de navegacion */
+.header {
+    height: 10rem;
+}
 
 .header .enlaces li {
     display: inline-block;
@@ -66,7 +69,7 @@
 
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
 }
 
@@ -87,33 +90,18 @@
 
 /* Segundo section */
 
-.carruselArticleImagen1 {
-    width: 70%;
-    justify-content: center;
-    height: 93.5%;
-    margin-left: 10rem;
-    margin-top: 0.1%;
+.carousel {
+    margin-left: 4rem;
 }
-
-/* Imagenes a colocar */
-
-.carruselArticleImagen2 {
-    width: 45rem;
-    height: 30rem;
-}
-
-.carruselArticleImagen3 {
-    width: 45rem;
-    height: 30rem;
-}
-/* Imagenes a colocar */
-
-.descripcionBandaInfo {
-    border: 3px solid rgb(255, 255, 255);
-    font-size: 1.2rem;
+.col-12-sm {
+    text-align: center;
     color: white;
-    width: 70%;
-    margin-left: 10rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+}
+.d-block {
+    width: 70rem;
+    height: 34.4rem;
 }
 
 /* Fin segundo section */
@@ -123,6 +111,7 @@
     background-color: black;
     color: white;
     text-align: center;
+    margin: auto;
 }
 
 .redesSociales {
@@ -164,10 +153,9 @@
     color: white;
     text-align: center;
     font-size: 1.3rem;
-    height: 4.3rem
+    height: 4.3rem;
 }
 /* Fin footer */
-
 
 /* Integrantes */
 
@@ -178,142 +166,47 @@
     gap: 10px;
 }
 
-/* Imagenes de instegrantes*/
-.vocalistaArticle {
-    width: 90%;
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.guitarristaPrincipalArticle {
-    width: 90%
+/* Imagenes integrantes */
+.cardimg1 {
+    width: 100%;
+    height: 22.4rem;
 }
 
-.guitarristaSecundarioArticle{
-    width: 90%
+.cardImg2 {
+    width: 100%;
+    height: 26.5rem;
 }
 
-.bajistaArticle {
-    width: 80%
+.cardImg3 {
+    width: 100%;
+    height: 22.8rem;
 }
 
-.bateristaArticle {
-    width: 90%
+.cardImg4 {
+    width: 100%;
+    height: 26.5rem;
 }
 
+.cardImg5 {
+    width: 100%;
+    height: 26.5rem;
+}
+
+.card {
+    background-color: rgb(59, 59, 59);
+    border: 0px rgb(0, 0, 0) solid;
+}
+
+.cardText {
+    color: white;
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+}
 /* Fin imagenes de instegrantes */
-
-.vocalista {
-    color: white;
-    margin: 1.9rem;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.guitarristaPrincipal {
-    color: white;
-    margin: 1.9rem;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.guitarristaSecundario {
-    color: white;
-    margin: 1.9rem;
-    text-decoration: underline;
-    text-align: center;
-}
-
-
-.bajista {
-    color: white;
-    margin: 1.9rem;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.baterista {
-    color: white;
-    margin: 1.9rem;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.integrante1 {
-    color: white;
-    text-align: center;
-    height: 100%;
-}
-
-.integrante2 {
-    color: white;
-    text-align: center;
-}
-
-.integrante3 {
-    color: white;
-    text-align: center;
-}
-
-.integrante4 {
-    color: white;
-    text-align: center;
-}
-
-.integrante5 {
-    color: white;
-    text-align: center;
-}
-
-.matt {
-    width: 450px;
-    height: 600px;
-}
-
-.synyster {
-    width: 450px;
-    height: 600px;
-}
-
-.zacky {
-    width: 450px;
-    height: 600px;
-}
-.jhonny {
-    width: 450px;
-    height: 600px;
-}
-.brooks {
-    width: 450px;
-    height: 600px;
-}
-
-.vocalistaInfo {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.guitarristaPrincipalInfo {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.guitarristaSecundarioInfo {
-    color: white;
-    font-size: 1.2rem;
-    
-}
-
-.bajistaInfo {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.bateristaInfo {
-    color: white;
-    font-size: 1.2rem;
-}
-
-
-/* Fin integrantes */
 
 
 /* Discografia */
@@ -608,6 +501,7 @@
 /* Medias */
 
 /* Pagina principal - contenedor */
+
 @media screen and (max-width: 1024px){
     .contenedor {
         display: grid;
@@ -638,6 +532,11 @@
         margin-left: 5rem;
     }
 }
+@media screen and (max-width: 1024px){
+    .row {
+        margin: center;
+    }
+}
 /* Fin video */
 
 /* Fin pagina principal - contenedor */
@@ -656,6 +555,16 @@
 }
 
 /* Fin tercera pagina */
+
+/* Integrantes */
+
+@media screen and (max-width: 320px){
+    .header .logo img {
+        height: 6rem;
+        width: auto;
+        visibility: hidden;
+    }
+}
 
 /* Footer */
 @media screen and (max-width: 768px){
@@ -691,3 +600,4 @@
         font-size: 2.8rem;
     }
 }
+
